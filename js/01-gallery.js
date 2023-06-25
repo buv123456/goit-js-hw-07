@@ -30,7 +30,7 @@ function onClick(event) {
     instance.show(window.addEventListener('keydown', closeMarkup));
 }
 
-function makeImgMarkup({ original, description }) {
+function makeImgMarkup({ original, description } = {}) {
     return `
     <img
       src="${original}"
